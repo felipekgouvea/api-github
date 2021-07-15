@@ -1,0 +1,151 @@
+.perfil-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil-container-top {
+  width: 90%;
+  height: auto;
+  background-color: #e6f7ff;
+  border-radius: 15px;
+  margin: 30px 0px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.perfil-container-top h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #262626;
+  padding: 30px 0 10px 0px;
+}
+
+.perfil-button {
+  height: 40px;
+  width: 101px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.perfil-container-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.perfil-image {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.perfil-image img {
+  width: 100%;
+}
+
+.perfil-content {
+  background-color: #ffffff;
+  width: 80%;
+  height: 230px;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin: 20px 35px 45px 30px;
+  padding-right: 15px;
+}
+
+.perfil-content h1 {
+  font-size: 18px;
+  color: #1890ff;
+  font-weight: 500;
+  margin: 8px 0 20px 15px;
+}
+
+.perfil-content p {
+  font-size: 12px;
+  color: #737373;
+  margin: 5px;
+  margin-left: 15px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 5px 0 5px 5px;
+}
+
+.perfil-content span {
+  font-weight: bold;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.search-input {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 40px;
+  width: 250px;
+  color: #5c5858;
+  padding-left: 17px;
+}
+
+.search-input::placeholder {
+  color: #bfbfbf;
+}
+
+@media (min-width: 576px) {
+  .perfil-container-top h1 {
+    font-size: 24px;
+  }
+
+  .search-input {
+    width: 300px;
+  }
+
+  .perfil-content {
+    width: 90%;
+    margin: 20px 35px 50px 30px;
+  }
+
+  .perfil-content h1 {
+    font-size: 18px;
+  }
+
+  .perfil-content p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .perfil-container-bottom {
+    flex-direction: row;
+  }
+
+  .perfil-image {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+  }
+
+  .perfil-container-top h1 {
+    font-size: 38px;
+  }
+
+  .perfil-content h1 {
+    font-size: 20px;
+  }
+}

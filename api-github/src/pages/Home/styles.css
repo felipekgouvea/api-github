@@ -1,0 +1,23 @@
+.home-container{
+    margin: 30px 0 0 40px;
+}
+
+.home-container h1{
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.home-container h3{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    color: #7E7E7E;
+}
+
+.home-container button, .home-container button:hover {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 30px;
+}
